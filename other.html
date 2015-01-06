@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Dun Deng: other</title>
+    <link rel="stylesheet" href="ddwebpage.css" >
+    <script language="JavaScript" >
+        //Give last updated time
+        function LastUpdated(){
+            var datUpdated = document.lastModified ;
+            document.write(datUpdated) ;
+        }
+    </script>
+</head>
+<body>
+
+    <header id="navbar">
+
+        <img src="images/name.png" usemap="#myname">
+        <map name="myname">
+            <area shape="rect" coords="100,0,400,100" href="index.html" alt="home">
+        </map>
+
+            <!--logo area-->
+        <nav>
+            <ul>
+                <li>
+                <a href="index.html">Home</a>
+                </li>
+
+                <li>
+                <a href="research.html">Research</a>
+                </li>
+
+                <li>
+                <a href="teaching.html">Teaching</a>
+                </li>
+
+                <li>
+                <a href="other.html">Other</a>
+                </li>
+            </ul>
+            <!-- section menu -->
+        </nav>
+    </header>
+
+    <div id="mainContainer">
+
+            <div id="biotext" class="floatleft">
+
+            <h2>Bio</h2>
+
+            <p>I was born in a small town in a central province of China... blablabla...  </p>
+            <p>Mention a couple of things about you that are unique or that distinguish you from other linguists... </p>
+            <p>How I became interested in computational linguistics since ....</p>
+            <p>I like fishing and cooking, and have a dream to own a farm.</p>
+            </div>
+
+            <div id="biopic" class="floatright">
+            <img src="images/family.jpg" width="400" height="300">
+                <p>My daughter Eirene Xinyuan(心渊) and me</p>
+            </div>
+
+        <h2>Lately I am reading ... </h2>
+            <ul>
+                <li>statistical machine translation </li>
+                <li> hu shi, xiwang </li>
+                    <p>我从山中来，带着兰花草...</p>
+                <li>maybe Lu Ding Ji? just random stuff that you are reading </li>
+            </ul>
+
+    </div>
+
+    <footer>
+        <p> All contents by Dun Deng; photo & coding by Yanyan Cui.
+            <!-- copy right statement-->
+            Last updated on<script language="JavaScript" type="text/JavaScript">LastUpdated()</script>
+        </p>
+            <!-- last modified time -->
+    </footer>
+</body>
+</html>

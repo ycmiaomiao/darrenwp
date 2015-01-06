@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Dun Deng: Home</title>
+    <link rel="stylesheet" href="ddwebpage.css" >
+    <script language="JavaScript" >
+        //Give last updated time
+        function LastUpdated(){
+            var datUpdated = document.lastModified ;
+            document.write(datUpdated) ;
+        }
+
+    </script>
+</head>
+
+<body>
+    <header id="navbar">
+
+        <img src="images/name.png" usemap="#myname">
+        <map name="myname">
+            <area shape="rect" coords="100,0,400,100" href="index.html" alt="home">
+        </map>
+
+            <!--logo area-->
+        <nav>
+            <ul>
+                <li>
+                <a href="#">Home</a>
+                </li>
+
+                <li>
+                <a href="research.html">Research</a>
+                </li>
+
+                <li>
+                <a href="teaching.html">Teaching</a>
+                </li>
+
+                <li>
+                <a href="other.html">Other</a>
+                </li>
+            </ul>
+            <!-- section menu -->
+        </nav>
+    </header>
+
+    <div id="mainContainer">
+
+
+        <div class="floatleft">
+        <img name="me" src="images/me.jpg" width="240" height="180">
+            <!-- put a recent photo here-->
+        </div>
+
+
+
+        <div class="floatright">
+            <h2>Welcome!</h2>
+
+            <p>I am currently a postdoctoral research fellow in <a href="http://www.cs.brandeis.edu/~clp/Lab/Home.html">Chinese Language Processing Group</a>
+                at <a href="http://www.cs.brandeis.edu">Computer Science Department</a>, Brandeis University.</p>
+            <p>My main work is on syntax, its interface with semantics and pragmatics, as well as its application in computational linguistics.</p>
+            <p>I received my PhD from the Department of Linguistics at the University of Wisconsin-Madison in December 2013. My advisors were Yafei Li and Muvert Enc.</p>
+            <p>I received a M.A.in Chinese Linguistics and B.A. in Chinese Literature from the Department of Chinese Language and Literature at Peking University.</p>
+            <h3>CV</h3>
+            <p>My <a href="docs/DDeng_CV.pdf">CV</a> (pdf) can be downloaded here</p>
+        </div>
+
+
+
+        <div id="contact">
+            <h3>Email</h3>
+            <img name="email" src="images/email.png" width="150" height="20" border="0">
+            <h3>Mail</h3>
+            <p>Computer Science Department</p>
+            <p>Brandeis University</p>
+            <p>415 South Street</p>
+            <p>Waltham, MA 02453, USA</p>
+        </div>
+
+
+    </div>
+
+
+
+    <footer>
+        <p> All contents by Dun Deng; coding by Yanyan Cui.
+            <!-- copy right statement-->
+            Last updated on<script language="JavaScript" type="text/JavaScript">LastUpdated()</script>
+        </p>
+            <!-- last modified time -->
+    </footer>
+
+</body>
+
+</html>
